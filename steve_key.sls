@@ -1,0 +1,5 @@
+AAAAB3NzaC1yc2EAAAADAQABAAABAQDGrohB/sNjpTWTGVzTuwHNoEme/Twmatwor76vnA8tkOMSf7C/PFAAyKQ8TaoFsLvYCKrkuROkDgEfWwXxXdBt7TjTDRxjerdV7Armn2Gmu0t+G4PqggeyjpaMXHsPamRmBhrH55YG/tjoW0fHSPYjhB7K/XNtx88QSvPpMJEczu5nMLCEye+NAjpPBKzlYTlbx1WjgCAs8SfizV6SAcPCWoaFPMO7wA4hrLpHOgZKG9PSCOCqGppGMr5t7kLryezOTIZ9sXvxOeoNTlvQaeQxbzY5ssw6AdTPbHLYRZgxcxmUuI0yc6hK1tfo5FFyD36AkbufdzxJg4arI4yiuR1j:
+  ssh_auth:
+    - present
+    - user: steve
+    - enc: ssh-rsa
