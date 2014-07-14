@@ -1,5 +1,5 @@
-127.0.0.1               titan localhost
-192.168.1.240           salt phobos
-192.168.1.241		dione
+127.0.0.1               localhost
+192.168.1.241           salt phobos
+192.168.1.243		europa
 io.steviedons.com       io
 ::1             localhost6.localdomain6 localhost6
