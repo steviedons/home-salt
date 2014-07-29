@@ -19,3 +19,9 @@ python-argparse:
         - user: steve
         - group: steve
 
+/home/steve/powerline-shell/powerline-shell.py:
+   file.managed:
+        - source: salt://powerline-shell/powerline-shell.py
+        - mode: 755
+        - user: steve
+        - group: steve

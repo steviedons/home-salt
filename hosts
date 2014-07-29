@@ -1,5 +1,9 @@
 127.0.0.1               localhost
 192.168.1.241           salt phobos
 192.168.1.243		europa
+192.168.1.247		rhce-1
+192.168.1.248		rhce-2
+192.168.1.200		titan
+192.168.1.250		r1
 io.steviedons.com       io
 ::1             localhost6.localdomain6 localhost6

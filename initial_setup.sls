@@ -1,6 +1,9 @@
 vim-enhanced:
   pkg.installed
 
+htop:
+  pkg.installed
+
 steve:
   user.present:
     - uid: 1000
