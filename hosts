@@ -5,6 +5,6 @@
 192.168.1.248		rhce-2
 192.168.1.200		titan
 192.168.1.250		r1
-192.168.1.253 home-sw
+192.168.1.253 		home-sw
 io.steviedons.com       io
 ::1             localhost6.localdomain6 localhost6
