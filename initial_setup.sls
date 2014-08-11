@@ -4,33 +4,6 @@ vim-enhanced:
 htop:
   pkg.installed
 
-nagios-plugins-all:
-  pkg.installed
-
-nrpe:
-  pkg:
-     - installed
-  service:
-     - running
-     - reload: True
-     - enable: True
-     - file: /etc/nagios/nrpe.cfg
-  iptables.append:
-    - table: filter
-    - chain: INPUT
-    - jump: ACCEPT
-    - match: state
-    - connstate: NEW
-    - dport: 5666
-    - proto: tcp
-    - save: True
-
-/etc/nagios/nrpe.cfg:
-  file.managed:
-    - source: salt://nrpe.cfg
-    - user: root
-    - group: root
-    - mode: 644
 
 steve:
   user.present:
